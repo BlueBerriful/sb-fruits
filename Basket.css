@@ -1,0 +1,41 @@
+.h_bar {
+    background-color: #FF6666;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 0px;
+}
+
+#top {
+    top: 0%;
+    height: 100px;
+}
+
+p {
+    font-family: Roboto, -apple-system, 'Segoe UI', Oxygen, 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+#bot {
+    height: 40px;
+    bottom: 0px;
+    margin-left: 10px;
+}
+
+#nav_bar {
+    background-color: #FF4444;
+    padding: 0px;
+    margin: 0px;
+    border-style: double;
+    border-color: #1155AA;
+    border-width: 0px;
+    border-right-width: 8px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
