@@ -9,21 +9,46 @@
 </head>
 
 <body>
-    <header id="top" class="h_bar">
-        <p>This is the header.</p>
+    <header class="h_bar">
 
     </header>
     
-    
 
-    <footer id="bot" class="h_bar">
-        <p>This is the footer.</p>
+    <nav>
+        <h1>Navigation</h1>
+        <ul>
+            <li><h2 id="home">Home</h2></li> <!--Original styled timetable, profile from canvas-->
+            <li><h2 id="timetable">Timetable</h2></li> <!--link to canvas todo, calendar, date-->
+            <li><h2 id="notices">Notices</h2></li> <!--include daily, sbhs website, canvas todo || 3 panel layout, notices filter-->
+            <li><h2 id="feedback">Feedback</h2></li> <!--form-->
+            <li><h2 id="settings">Settings</h2></li><!--Colour theme, notices filter (another), credits (link footer)-->
+            
+        </ul>
+        <aside>
+            <svg class="logout" viewBox="0 0 512.4 504.3">
+                <path class="logout" d="M180.8,113.9V49.3c0-21.7,17.6-39.3,39.3-39.3h243c21.7,0,39.3,17.6,39.3,39.3V455c0,21.7-17.6,39.3-39.3,39.3h-243c-21.7,0-39.3-17.6-39.3-39.3v-66.5"/>
+                <polyline class="logout" points="372.3,252.1 10,251.5 139.1,133.6 "/>
+                <line class="logout" x1="138.7" y1="369.2" x2="10" y2="251.5"/>
+            </svg>
+            <p id="logout_text">Logout</p>
+        </aside>
+        
 
-    </footer>
-    <nav id="nav_bar">
-        <p>This is the nav.</p>
+        
         
     </nav>
+
+
+    <footer class="h_bar">
+        <ul>
+            <li class="credits">Links:</li>
+            <li id="sb_web"><a href="http://www.sydneyboyshigh.com/" target="_blank"><img src="sb_web.svg" alt="SBHS"/></a></li>
+            <li><a href="https://student.sbhs.net.au/" target="_blank"><img src="sb_port.svg" alt="Portal"></a></li>
+            <li><a href="https://sydneyboyshigh.instructure.com/" target="_blank"><img src="canvas.svg" alt="Canvas"></a></li>
+            <li class="credits">Created by Johnathan Min</li>
+        </ul>
+    </footer>
+    
 
     <script>
         document.write("<p><br><br>This is the javascript.</p>")

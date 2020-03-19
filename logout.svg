@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.4 504.3">
+<style type="text/css">
+	.st0{fill:none;
+        stroke:#000000;
+        stroke-width:20;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        stroke-miterlimit:10;}
+</style>
+<path id="logout" d="M180.8,113.9V49.3c0-21.7,17.6-39.3,39.3-39.3h243c21.7,0,39.3,17.6,39.3,39.3V455c0,21.7-17.6,39.3-39.3,39.3
+	h-243c-21.7,0-39.3-17.6-39.3-39.3v-66.5"/>
+<polyline id="logout" points="372.3,252.1 10,251.5 139.1,133.6 "/>
+<line id="logout" x1="138.7" y1="369.2" x2="10" y2="251.5"/>
+</svg>
