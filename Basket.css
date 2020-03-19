@@ -19,9 +19,8 @@ Type properties
 SVG properties
 Border properties
 */
-
 body{
-    background-color: #FFF;
+    background-color: #FAFAFF;
     
     color: #555;
     text-align: center;
@@ -31,7 +30,7 @@ body{
 header{
     top: 0%;
 
-    background-color: #EEE;
+    background-color: #F0F0F8;
     height: 100px;
 }
 h1{
@@ -40,19 +39,16 @@ h1{
     padding-top: 30px;
     padding-bottom: 30px;
 
-    background-color: #EEE;
+    background-color: #F0F0F8;
 
     font-size: 30px;
 
-    /*border: solid 1px hotpink;*/
 }
 h2{
     margin: 0px;
-    margin-bottom: 5px;
     padding: 15px;
 
     font-size: 1.5em;
-    /*border: solid 1px hotpink;*/
 }
 nav{
     margin: 0px;
@@ -60,14 +56,14 @@ nav{
     top: 0px;
     left: 0px;
 
-    background-color: #EEE;
+    background-color: #E0E0EB;
     width: 200px;
     height: 100%;
     z-index: 1;
     padding: 0px;
     
     border-style: double;
-    border-color: #BBB;
+    border-color: #BBD;
     border-width: 0px;
     border-right-width: 4px;
 }
@@ -78,33 +74,34 @@ nav ul{
     text-align: left;
     list-style-type: none;
     
-    /*border: solid 1px hotpink;*/
+    border-style: solid;
+    border-color: #BBD;
+    border-width: 0px;
+    border-top-width: 2px;
 }
-/*
-
 #home{
-
+    background-color: #E0E0EE;
 }
 #timetable{
-
+    background-color: #D4D4E2;
 }
 #notices{
-
+    background-color: #C8C8D6;
 }
 #feedback{
-
+    background-color: #BCBCCA;
 }
 #settings{
-
+    background-color: #AFAFBE;
 }
 
-*/
+
 aside{
     position: fixed;
     bottom: 0px;
     left: 0px;
 
-    background-color: #DDD;
+    background-color: #CCC;
     width: 200px;
     height: 70px;
 }
@@ -138,7 +135,7 @@ aside{
 footer{
     bottom: 0px;
 
-    background-color: #EEE;
+    background-color: #F0F0F8;
     height: 70px;
     overflow: hidden;
 }
